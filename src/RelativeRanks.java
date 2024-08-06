@@ -56,5 +56,12 @@ public class RelativeRanks {
         for(String s: relativeRanks){
             System.out.print(s+" ");
         }
+
+        int[] score1 = {51,4,33,2,1};
+        String[] relativeRanks1=findRelativeRanks(score);
+
+        for(String s: relativeRanks1){
+            System.out.print(s+" ");
+        }
     }
 }
